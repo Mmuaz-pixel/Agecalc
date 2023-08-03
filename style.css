@@ -70,3 +70,21 @@ body {
     display: inline;
     color: rgb(154, 4, 154);
 }
+
+@media only screen and (max-width: 730px) {
+    .main{
+        height: 65vh;
+        width: fit-content;
+        margin: 100px auto;
+    }
+
+    #line_logo
+    {
+        justify-content: center;
+    }
+
+    #line {
+        width: auto;
+    }
+    
+}
